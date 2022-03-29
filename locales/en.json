@@ -1,9 +1,17 @@
 {
-  "hello": "Hello",
-  "made_by": "Made by",
-  "toggle_language": "Toggle Language",
-  "welcome": "there, welcome to Vitesome",
-  "recomended-ide": "Recommended IDE setup",
-  "See": "See",
-  "more-info": "for more information."
+  "education": "Education",
+  "frontend_dev": "Front-End Developer",
+  "age": "Age",
+  "residence": "Residence",
+  "spanish_abbreviation": "Sp",
+  "freelance": "Freelance",
+  "available": "Available",
+  "city": "City",
+  "barcelona": "Barcelona",
+  "languages": "Languages",
+  "skills": "Skills",
+  "extra_skills": "Extra Skills",
+  "Spanish": "Spanish",
+  "english": "English",
+  "spanish": "Spanish"
 }

@@ -4,7 +4,15 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
-    HelloWorld: typeof import('./components/HelloWorld.vue')['default']
+    AsideBase: typeof import('./components/AsideBase.vue')['default']
+    AsideTools: typeof import('./components/AsideTools.vue')['default']
+    ContentWrapper: typeof import('./components/ContentWrapper.vue')['default']
+    FjProfileData: typeof import('./components/FjProfileData.vue')['default']
+    ProfileCard: typeof import('./components/ProfileCard.vue')['default']
+    ProfileData: typeof import('./components/ProfileData.vue')['default']
+    ProfileDataElement: typeof import('./components/ProfileDataElement.vue')['default']
+    ProfileSkills: typeof import('./components/ProfileSkills.vue')['default']
+    ProgressBar: typeof import('./components/ProgressBar.vue')['default']
   }
 }
 

@@ -26,4 +26,6 @@ app.use(i18n);
 
 app.use(Router);
 
+app.provide('birthdate', '15/09/1990')
+
 app.mount('#app');

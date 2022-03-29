@@ -1,3 +1,23 @@
+:root {
+  @media (min-width: 640px) {
+    --aside-width: theme('width.64');
+  }
+  @media (min-width: 1024px) {
+    --aside-width: theme('width.80');
+  }
+}
+
 body {
-  @apply text-gray-700 dark:bg-gray-800 dark:text-gray-200;
+  @apply overflow-x-hidden text-black bg-gray-200 dark:text-gray-900 dark:bg-gray-800;
+}
+
+.icons {
+  @apply transition text-gray-500 dark:text-white hover:text-primary-500 hover:dark:text-complementary-500;
+}
+
+.icons-rounded {
+  @apply transition rounded-full cursor-pointer bg-primary-500 hover:bg-secondary-300 dark:bg-complementary-500 dark:border-complementary-500 dark:hover:bg-complementary-800 dark:hover:border-complementary-800;
+  .icons {
+    @apply transition text-gray-900 hover:text-gray-900;
+  }
 }
