@@ -34,7 +34,7 @@ export default defineComponent({
       <transition name="bars" appear>
         <div
           class="border rounded-full border-primary-500 dark:border-complementary-500"
-          :style="`transition: all 2s`"
+          :style="`transition: bar 2s`"
         >
           <div
             class="h-2 rounded-full bg-primary-500 dark:bg-complementary-500 bar"
