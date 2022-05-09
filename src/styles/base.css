@@ -11,6 +11,11 @@ body {
   @apply overflow-x-hidden text-black bg-gray-200 dark:text-gray-900 dark:bg-gray-800;
 }
 
+.primary-em em {
+  @apply text-primary-500 dark:text-complementary-500;
+  font-style: normal;
+}
+
 .icons {
   @apply transition text-gray-500 dark:text-white hover:text-primary-500 hover:dark:text-complementary-500;
 }

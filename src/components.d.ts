@@ -7,7 +7,6 @@ declare module 'vue' {
     AsideBase: typeof import('./components/AsideBase.vue')['default']
     AsideTools: typeof import('./components/AsideTools.vue')['default']
     ContentWrapper: typeof import('./components/ContentWrapper.vue')['default']
-    FjProfileData: typeof import('./components/FjProfileData.vue')['default']
     ProfileCard: typeof import('./components/ProfileCard.vue')['default']
     ProfileData: typeof import('./components/ProfileData.vue')['default']
     ProfileDataElement: typeof import('./components/ProfileDataElement.vue')['default']

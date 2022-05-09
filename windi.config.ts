@@ -6,9 +6,9 @@ export default defineConfig({
   plugins: [typography()],
   theme: {
     fontFamily: {
-      sans: ['Open Sans', 'ui-sans-serif', 'system-ui'],
-      serif: ['Montserrat', 'ui-serif', 'Georgia'],
-      mono: ['Fira Sans', 'ui-monospace', 'SFMono-Regular'],
+      sans: ['Raleway', 'ui-sans-serif', 'system-ui'],
+      serif: ['Playfair Display', 'ui-serif', 'Georgia'],
+      mono: ['Roboto Mono', 'ui-monospace', 'SFMono-Regular'],
     },
     extend: {
       colors: {

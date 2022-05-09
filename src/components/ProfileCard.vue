@@ -51,10 +51,12 @@ export default defineComponent({
         />
       </transition>
     </div>
-    <h4 class="mb-2 text-lg font-medium">Fran J Salvador</h4>
-    <p class="mb-3 text-sm font-normal text-gray-400">
-      {{ t('frontend_dev') }}
-    </p>
+    <div class="sm:hidden text-center">
+      <h4 class="mb-2 text-lg font-normal">Fran J Salvador</h4>
+      <p class="mb-3 text-sm font-light text-gray-400">
+        {{ t('frontend_dev') }}
+      </p>
+    </div>
     <div class="flex justify-around space-x-4">
       <ul class="flex items-center justify-center space-x-4 sm:space-x-4">
         <li class="flex justify-center w-8 h-8 text-2xl icons-rounded">

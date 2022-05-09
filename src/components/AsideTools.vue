@@ -20,19 +20,15 @@ export default defineComponent({
 </script>
 
 <template>
-  <div class="fixed top-0 right-0 m-3">
+  <div class="fixed top-3 right-0 p-3 bg-slate-100 dark:bg-gray-700 rounded-l-lg">
     <ul
       class="flex flex-col justify-center items-center space-y-3 sm:flex-row sm:space-y-0 sm:space-x-4"
     >
-      <li class="cursor-pointer text-2xl sm:text-3xl">
-        <a href="#" @click="toggleLocales" class="icons">
-          <i class="iconify" :data-icon="'ant-design:translation-outlined'" />
-        </a>
+      <li class="cursor-pointer text-2xl sm:text-3xl icons flex items-center" @click="toggleLocales">
+        <i class="iconify" :data-icon="'ant-design:translation-outlined'" />
       </li>
-      <li class="cursor-pointer text-2xl sm:text-3xl">
-        <a href="#" @click="toggleDark" class="icons">
-          <i class="iconify" :data-icon="'mdi:theme-light-dark'" />
-        </a>
+      <li class="cursor-pointer text-2xl sm:text-3xl icons flex items-center" @click="toggleDark">
+        <i class="iconify" :data-icon="'mdi:theme-light-dark'" />
       </li>
     </ul>
   </div>

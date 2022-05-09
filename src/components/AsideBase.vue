@@ -21,7 +21,7 @@ export default defineComponent({
     <ProfileCard />
     <hr class="my-6 border-0 border-t border-base-400" />
     <ProfileData />
-    <hr class="my-6 border-0 border-t border-base-400 dark:border-white" />
+    <hr class="my-6 border-0 border-t border-base-400" />
     <ProfileSkills />
   </div>
 </template>
